@@ -1,0 +1,26 @@
+spring:
+  datasource-type: H2
+  datasource:
+    url: jdbc:h2:mem:testdb
+    username: sa
+    password:
+    dialect: H2
+
+  h2:
+    console:
+      enabled: true
+
+  jpa:
+    show-sql: true
+
+#spring:
+#  datasource-type: Postgres
+#  datasource:
+#    url: jdbc:postgresql://localhost:5432/booking
+#    username: booking
+#    password: booking123
+#    driver-class-name: org.postgresql.Driver
+#    dialect: POSTGRES
+#    hikari:
+#      connection-timeout: 20000
+#      maximum-pool-size: 5
