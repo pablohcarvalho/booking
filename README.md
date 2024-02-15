@@ -112,8 +112,8 @@ Cancel a Booking                 = PUT    /schedule/booking/{property_id}/{id}/c
 Reopen a canceled Booking        = PUT    /schedule/booking/{property_id}/{id}/reopen
 Delete a Booking                 = DELETE /schedule/booking/{property_id}/{id}/delete
 Fetch a specific Booking         = GET    /schedule/booking/{property_id}/{id}
-Fetch All Blocks from a property = GET    /schedule/block/{property_id}/fetch
-Fetch all Blocks                 = GET    /schedule/block/fetch
+Fetch All Bookings from a property = GET    /schedule/booking/{property_id}/fetch
+Fetch all Bookings                 = GET    /schedule/booking/fetch
 
 ```
 
